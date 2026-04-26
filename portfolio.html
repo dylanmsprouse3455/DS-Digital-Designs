@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | DS Digital Designs</title>
+  <meta name="description" content="Recent DS Digital Designs website and tool examples.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-nav></header>
+  <main>
+    <section class="page-title">
+      <div class="wrap">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Work focused on clarity, speed, and practical outcomes.</h1>
+        <p>These examples show the types of systems and website patterns I build. More live case studies can be added as client work is approved for public display.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="filters" aria-label="Portfolio filters">
+          <button type="button" class="filter active" data-filter="all">All</button>
+          <button type="button" class="filter" data-filter="site">Websites</button>
+          <button type="button" class="filter" data-filter="redesign">Redesigns</button>
+          <button type="button" class="filter" data-filter="tool">Tools</button>
+        </div>
+
+        <div class="grid three">
+          <article class="card" data-project="site">
+            <div class="project-shot" aria-hidden="true"></div>
+            <p class="project-meta">One-page website</p>
+            <h2>Service Business Starter Site</h2>
+            <p>A compact homepage structure for a small business that needs services, credibility, and contact paths without a bloated build.</p>
+            <a class="button secondary" href="quote.html?type=one-page">Estimate Similar</a>
+          </article>
+
+          <article class="card" data-project="site">
+            <div class="project-shot" aria-hidden="true"></div>
+            <p class="project-meta">Multi-page website</p>
+            <h2>Local Business Growth Site</h2>
+            <p>A multi-page structure with dedicated service pages, about content, portfolio proof, and quote-focused conversion flow.</p>
+            <a class="button secondary" href="quote.html?type=multi-page">Estimate Similar</a>
+          </article>
+
+          <article class="card" data-project="redesign">
+            <div class="project-shot" aria-hidden="true"></div>
+            <p class="project-meta">Redesign</p>
+            <h2>Clarity and Conversion Refresh</h2>
+            <p>A cleanup path for outdated websites: simplified navigation, stronger page hierarchy, better mobile spacing, and clearer calls to action.</p>
+            <a class="button secondary" href="quote.html?type=redesign">Estimate Similar</a>
+          </article>
+
+          <article class="card" data-project="tool">
+            <div class="project-shot" aria-hidden="true"></div>
+            <p class="project-meta">Custom tool</p>
+            <h2>Interactive Quote Engine</h2>
+            <p>A lightweight estimator that guides visitors through scope choices and passes the details into the contact form.</p>
+            <a class="button secondary" href="quote.html">Try Quote Engine</a>
+          </article>
+
+          <article class="card" data-project="tool">
+            <div class="project-shot" aria-hidden="true"></div>
+            <p class="project-meta">Business system</p>
+            <h2>Escrow Calculator Concept</h2>
+            <p>An internal calculator pattern designed to make complex numbers easier to explain, repeat, and document across a team.</p>
+            <a class="button secondary" href="contact.html">Discuss a Tool</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-footer></footer>
+  <script src="site.js"></script>
+</body>
+</html>
